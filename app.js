@@ -3,7 +3,7 @@ const { connect } = require("./connect")
 const app=express()
 
 app.get("/",async(req,res)=>{
-    res.send("Helloooooo..................000000")
+    res.send("Hello World")
 })
 
 
